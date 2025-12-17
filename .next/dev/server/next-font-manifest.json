@@ -1,90 +1,42 @@
 {
   "app": {
-    "[project]/Desktop/khách/app/_not-found/page": [
+    "[project]/app/_not-found/page": [
       "static/media/2bbe8d2671613f1f-s.p.76dcb0b2.woff2",
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
       "static/media/d0b60be57f16ee32-s.p.7a65e2c2.woff2",
       "static/media/01e4147cff8141ee-s.p.7787e134.woff2"
     ],
-    "[project]/Desktop/khách/app/blog/[slug]/page": [
+    "[project]/app/blog/[slug]/page": [
       "static/media/2bbe8d2671613f1f-s.p.76dcb0b2.woff2",
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
       "static/media/d0b60be57f16ee32-s.p.7a65e2c2.woff2",
       "static/media/01e4147cff8141ee-s.p.7787e134.woff2"
     ],
-    "[project]/Desktop/khách/app/blog/page": [
+    "[project]/app/blog/page": [
       "static/media/2bbe8d2671613f1f-s.p.76dcb0b2.woff2",
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
       "static/media/d0b60be57f16ee32-s.p.7a65e2c2.woff2",
       "static/media/01e4147cff8141ee-s.p.7787e134.woff2"
     ],
-    "[project]/Desktop/khách/app/dich-vu/page": [
+    "[project]/app/khoa-hoc/page": [
       "static/media/2bbe8d2671613f1f-s.p.76dcb0b2.woff2",
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
       "static/media/d0b60be57f16ee32-s.p.7a65e2c2.woff2",
       "static/media/01e4147cff8141ee-s.p.7787e134.woff2"
     ],
-    "[project]/Desktop/khách/app/gay-custom/[slug]/page": [
+    "[project]/app/lien-he/page": [
       "static/media/2bbe8d2671613f1f-s.p.76dcb0b2.woff2",
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
       "static/media/d0b60be57f16ee32-s.p.7a65e2c2.woff2",
       "static/media/01e4147cff8141ee-s.p.7787e134.woff2"
     ],
-    "[project]/Desktop/khách/app/gay-custom/page": [
+    "[project]/app/page": [
       "static/media/2bbe8d2671613f1f-s.p.76dcb0b2.woff2",
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
       "static/media/d0b60be57f16ee32-s.p.7a65e2c2.woff2",
       "static/media/01e4147cff8141ee-s.p.7787e134.woff2"
     ],
-    "[project]/Desktop/khách/app/gio-hang/page": [
-      "static/media/2bbe8d2671613f1f-s.p.76dcb0b2.woff2",
-      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
-      "static/media/d0b60be57f16ee32-s.p.7a65e2c2.woff2",
-      "static/media/01e4147cff8141ee-s.p.7787e134.woff2"
-    ],
-    "[project]/Desktop/khách/app/khoa-hoc/page": [
-      "static/media/2bbe8d2671613f1f-s.p.76dcb0b2.woff2",
-      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
-      "static/media/d0b60be57f16ee32-s.p.7a65e2c2.woff2",
-      "static/media/01e4147cff8141ee-s.p.7787e134.woff2"
-    ],
-    "[project]/Desktop/khách/app/lien-he/page": [
-      "static/media/2bbe8d2671613f1f-s.p.76dcb0b2.woff2",
-      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
-      "static/media/d0b60be57f16ee32-s.p.7a65e2c2.woff2",
-      "static/media/01e4147cff8141ee-s.p.7787e134.woff2"
-    ],
-    "[project]/Desktop/khách/app/page": [
-      "static/media/2bbe8d2671613f1f-s.p.76dcb0b2.woff2",
-      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
-      "static/media/d0b60be57f16ee32-s.p.7a65e2c2.woff2",
-      "static/media/01e4147cff8141ee-s.p.7787e134.woff2"
-    ],
-    "[project]/Desktop/khách/app/phu-kien/[slug]/page": [
-      "static/media/2bbe8d2671613f1f-s.p.76dcb0b2.woff2",
-      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
-      "static/media/d0b60be57f16ee32-s.p.7a65e2c2.woff2",
-      "static/media/01e4147cff8141ee-s.p.7787e134.woff2"
-    ],
-    "[project]/Desktop/khách/app/phu-kien/page": [
-      "static/media/2bbe8d2671613f1f-s.p.76dcb0b2.woff2",
-      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
-      "static/media/d0b60be57f16ee32-s.p.7a65e2c2.woff2",
-      "static/media/01e4147cff8141ee-s.p.7787e134.woff2"
-    ],
-    "[project]/Desktop/khách/app/san-pham/[slug]/page": [
-      "static/media/2bbe8d2671613f1f-s.p.76dcb0b2.woff2",
-      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
-      "static/media/d0b60be57f16ee32-s.p.7a65e2c2.woff2",
-      "static/media/01e4147cff8141ee-s.p.7787e134.woff2"
-    ],
-    "[project]/Desktop/khách/app/san-pham/page": [
-      "static/media/2bbe8d2671613f1f-s.p.76dcb0b2.woff2",
-      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
-      "static/media/d0b60be57f16ee32-s.p.7a65e2c2.woff2",
-      "static/media/01e4147cff8141ee-s.p.7787e134.woff2"
-    ],
-    "[project]/Desktop/khách/app/thanh-toan/page": [
+    "[project]/app/phu-kien/page": [
       "static/media/2bbe8d2671613f1f-s.p.76dcb0b2.woff2",
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2",
       "static/media/d0b60be57f16ee32-s.p.7a65e2c2.woff2",

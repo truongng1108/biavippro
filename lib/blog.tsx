@@ -13,12 +13,517 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "12",
+    title: "Tin Nóng: Đức Cường Billiards Khai Trương Trung Tâm Huấn Luyện & Giải Mở Rộng 2025",
+    slug: "duc-cuong-billiards-khai-truong-trung-tam-huan-luyen-va-giai-mo-rong-2025",
+    excerpt:
+      "Toàn cảnh sự kiện khai trương trung tâm huấn luyện mới, công bố giải đấu mở rộng 2025, lịch thi đấu, giải thưởng và cách đăng ký. Đi kèm ưu đãi sản phẩm, phụ kiện và khóa học chuyên sâu.",
+    content: `
+      <div class=" border-l-4 border-primary p-6 mb-8 rounded-r-lg">
+        <p class="text-foreground font-semibold text-lg mb-2">Bản tin dài ~1.500 từ, cập nhật toàn bộ sự kiện</p>
+        <p class="text-muted-foreground">Trung tâm huấn luyện mới, giải đấu mở rộng 2025, lịch trình, giải thưởng, ưu đãi thiết bị, khóa học và dịch vụ hậu mãi đều có trong bài viết này.</p>
+      </div>
+
+      <h2>Lý Do Đức Cường Billiards Mở Rộng Trung Tâm Huấn Luyện</h2>
+      <p>Đức Cường Billiards vừa chính thức khai trương trung tâm huấn luyện mới với mục tiêu nâng chuẩn đào tạo và mở rộng cộng đồng người chơi. Không chỉ cung cấp <a href="/khoa-hoc" class="text-primary hover:underline cursor-pointer font-medium">khóa học bi a</a> đa cấp độ, trung tâm còn tích hợp khu trải nghiệm sản phẩm, phòng phân tích video, và khu vực tập luyện chuyên biệt cho từng nhóm trình độ. Đây là bước đi nhằm chuẩn bị cho mùa giải 2025 với nhiều giải đấu mở rộng, quy tụ cả tuyển thủ chuyên nghiệp lẫn người chơi bán chuyên.</p>
+
+      <h2>Tổng Quan Sự Kiện Khai Trương</h2>
+      <div class="bg-secondary/50 p-6 rounded-lg border border-border my-6">
+        <ul class="space-y-3 text-muted-foreground">
+          <li class="flex gap-2"><span class="text-accent font-bold">•</span> Thời gian: 10h00 - 18h00, ngày 15/01/2025</li>
+          <li class="flex gap-2"><span class="text-accent font-bold">•</span> Địa điểm: Trung tâm Đức Cường Billiards, 123 Phạm Văn Đồng, Hà Nội</li>
+          <li class="flex gap-2"><span class="text-accent font-bold">•</span> Quy mô: 12 bàn tập luyện, 2 phòng phân tích video, khu trải nghiệm <a href="/san-pham" class="text-primary hover:underline cursor-pointer font-medium">gậy & bàn bi a</a>, quầy <a href="/phu-kien" class="text-primary hover:underline cursor-pointer font-medium">phụ kiện</a></li>
+          <li class="flex gap-2"><span class="text-accent font-bold">•</span> Khách mời: HLV quốc gia, các tay cơ top 10 Việt Nam, đại diện Predator, Mezz</li>
+        </ul>
+      </div>
+
+      <h2>Giải Đấu Mở Rộng 2025 - Thể Thức & Lịch Trình</h2>
+      <p>Giải đấu năm nay được tổ chức theo 3 hạng mục: Mở rộng (Open), Bán chuyên (Amateur) và Nữ. Mỗi hạng mục có vòng loại online, vòng bảng trực tiếp và chung kết tại trung tâm.</p>
+      <div class="grid md:grid-cols-3 gap-4 my-6">
+        <div class=" p-5 rounded-lg border border-primary/20">
+          <h4 class="font-semibold text-foreground mb-2">Hạng Mở Rộng (Open)</h4>
+          <p class="text-sm text-muted-foreground">64 VĐV, thi đấu 9-ball, race to 9, alternate break.</p>
+        </div>
+        <div class=" p-5 rounded-lg border border-primary/20">
+          <h4 class="font-semibold text-foreground mb-2">Hạng Bán Chuyên</h4>
+          <p class="text-sm text-muted-foreground">64 VĐV, 9-ball, race to 7, alternate break.</p>
+        </div>
+        <div class=" p-5 rounded-lg border border-primary/20">
+          <h4 class="font-semibold text-foreground mb-2">Hạng Nữ</h4>
+          <p class="text-sm text-muted-foreground">32 VĐV, 9-ball, race to 7, winner break.</p>
+        </div>
+      </div>
+      <p>Vòng loại online diễn ra từ 05/02 - 20/02 với hệ thống bracket công khai. Vòng bảng và chung kết tổ chức trực tiếp từ 01/03 - 03/03 tại trung tâm mới. Mọi trận đấu đều được livestream, kèm phân tích kỹ thuật ngay tại chỗ.</p>
+
+      <h2>Cơ Cấu Giải Thưởng & Quyền Lợi Vận Động Viên</h2>
+      <div class=" border-l-4 border-accent p-6 rounded-r-lg my-6">
+        <p class="font-semibold text-foreground mb-3">Tổng giá trị giải thưởng: 500.000.000 VNĐ</p>
+        <ul class="space-y-2 text-muted-foreground">
+          <li class="flex gap-2"><span class="text-accent font-bold mt-1">✓</span> Quán quân Open: 120.000.000 VNĐ + gậy Predator Revo 12.4 (<a href="/san-pham/gay-bi-a-predator-revo-12-4" class="text-primary hover:underline cursor-pointer font-medium">xem sản phẩm</a>).</li>
+          <li class="flex gap-2"><span class="text-accent font-bold mt-1">✓</span> Á quân Open: 60.000.000 VNĐ + bao cơ Predator Urbain 4 ngăn (<a href="/phu-kien/bao-co-4-ngan-predator" class="text-primary hover:underline cursor-pointer font-medium">xem phụ kiện</a>).</li>
+          <li class="flex gap-2"><span class="text-accent font-bold mt-1">✓</span> Quán quân Bán Chuyên: 50.000.000 VNĐ + gậy Mezz ACE bản đặc biệt.</li>
+          <li class="flex gap-2"><span class="text-accent font-bold mt-1">✓</span> Quán quân Nữ: 40.000.000 VNĐ + combo găng tay Predator + lơ Kamui (<a href="/phu-kien" class="text-primary hover:underline cursor-pointer font-medium">tham khảo</a>).</li>
+          <li class="flex gap-2"><span class="text-accent font-bold mt-1">✓</span> Top 16 Open nhận voucher 20% cho <a href="/gay-custom" class="text-primary hover:underline cursor-pointer font-medium">gậy custom</a> hoặc dịch vụ <a href="/dich-vu" class="text-primary hover:underline cursor-pointer font-medium">bảo dưỡng</a>.</li>
+        </ul>
+      </div>
+
+      <h2>Trung Tâm Huấn Luyện Mới Có Gì Đặc Biệt?</h2>
+      <p>Không chỉ dừng ở khu tập luyện, trung tâm mới còn tích hợp công nghệ theo dõi cú đánh, phòng phân tích video và thư viện giáo trình. Học viên có thể đăng ký các gói <a href="/khoa-hoc/khoa-bi-a-co-ban" class="text-primary hover:underline cursor-pointer font-medium">cơ bản</a>, <a href="/khoa-hoc/khoa-bi-a-nang-cao" class="text-primary hover:underline cursor-pointer font-medium">nâng cao</a> hoặc <a href="/khoa-hoc/khoa-bi-a-chuyen-nghiep" class="text-primary hover:underline cursor-pointer font-medium">chuyên nghiệp</a> với lịch linh hoạt.</p>
+      <div class="grid md:grid-cols-2 gap-4 my-6">
+        <div class="bg-secondary/50 p-5 rounded-lg border border-border">
+          <h4 class="font-semibold text-foreground mb-2">Phòng phân tích video</h4>
+          <p class="text-sm text-muted-foreground">Camera tốc độ cao, phân tích đường đi bóng, góc chạm, lực đánh. Dữ liệu lưu vào tài khoản học viên.</p>
+        </div>
+        <div class="bg-secondary/50 p-5 rounded-lg border border-border">
+          <h4 class="font-semibold text-foreground mb-2">Khu trải nghiệm thiết bị</h4>
+          <p class="text-sm text-muted-foreground">Trải nghiệm gậy carbon, gậy gỗ, test đầu cơ Kamui/Tiger, thử bao cơ, khăn lau tại khu <a href="/phu-kien" class="text-primary hover:underline cursor-pointer font-medium">phụ kiện</a>.</p>
+        </div>
+        <div class="bg-secondary/50 p-5 rounded-lg border border-border">
+          <h4 class="font-semibold text-foreground mb-2">Dịch vụ nhanh trong ngày</h4>
+          <p class="text-sm text-muted-foreground">Thay đầu cơ, cân chỉnh joint, đánh bóng shaft tại khu <a href="/dich-vu" class="text-primary hover:underline cursor-pointer font-medium">dịch vụ bảo dưỡng</a>, trả trong 24h.</p>
+        </div>
+        <div class="bg-secondary/50 p-5 rounded-lg border border-border">
+          <h4 class="font-semibold text-foreground mb-2">Khu custom</h4>
+          <p class="text-sm text-muted-foreground">Tư vấn thiết kế inlay, chọn gỗ, joint, wrap cho dự án <a href="/gay-custom" class="text-primary hover:underline cursor-pointer font-medium">gậy custom</a> cá nhân.</p>
+        </div>
+      </div>
+
+      <h2>Hướng Dẫn Đăng Ký Tham Gia Giải Đấu</h2>
+      <ol class="list-decimal list-inside space-y-2 text-muted-foreground">
+        <li>Truy cập trang <a href="/lien-he" class="text-primary hover:underline cursor-pointer font-medium">Liên hệ</a> hoặc inbox fanpage Đức Cường Billiards.</li>
+        <li>Chọn hạng mục (Open/Bán chuyên/Nữ) và cung cấp elo, thành tích gần nhất.</li>
+        <li>Nộp phí đăng ký: 500.000 VNĐ (Open), 300.000 VNĐ (Bán chuyên), 200.000 VNĐ (Nữ). Miễn phí cho học viên đang theo <a href="/khoa-hoc" class="text-primary hover:underline cursor-pointer font-medium">khóa học</a>.</li>
+        <li>Nhận xác nhận slot và lịch thi đấu qua email trong 24h.</li>
+      </ol>
+
+      <h2>Ưu Đãi Thiết Bị & Phụ Kiện Dịp Khai Trương</h2>
+      <div class=" p-6 rounded-lg my-6 border border-primary/20">
+        <div class="grid md:grid-cols-2 gap-4">
+          <div>
+            <h4 class="font-semibold text-foreground mb-2">Combo gậy + phụ kiện</h4>
+            <p class="text-muted-foreground text-sm">Giảm 10% khi mua gậy cao cấp tại <a href="/san-pham" class="text-primary hover:underline cursor-pointer font-medium">cửa hàng sản phẩm</a> kèm găng tay + bao cơ.</p>
+          </div>
+          <div>
+            <h4 class="font-semibold text-foreground mb-2">Phụ kiện hot</h4>
+            <p class="text-muted-foreground text-sm">Găng Predator giảm 5%, lơ Kamui giảm 7%, bao cơ 2 ngăn Mezz giảm 10% tại <a href="/phu-kien" class="text-primary hover:underline cursor-pointer font-medium">phụ kiện</a>.</p>
+          </div>
+          <div>
+            <h4 class="font-semibold text-foreground mb-2">Dịch vụ nhanh</h4>
+            <p class="text-muted-foreground text-sm">Giảm 15% thay đầu cơ trong 7 ngày khai trương, đặt lịch tại <a href="/dich-vu" class="text-primary hover:underline cursor-pointer font-medium">trang dịch vụ</a>.</p>
+          </div>
+          <div>
+            <h4 class="font-semibold text-foreground mb-2">Gậy custom</h4>
+            <p class="text-muted-foreground text-sm">Đặt cọc dự án <a href="/gay-custom" class="text-primary hover:underline cursor-pointer font-medium">gậy custom</a> được tặng wrap Irish Linen miễn phí.</p>
+          </div>
+        </div>
+      </div>
+
+      <h2>Lịch Workshop Song Hành</h2>
+      <p>Trong tuần khai trương, trung tâm tổ chức chuỗi workshop miễn phí (đăng ký trước, tối đa 20 người/phiên):</p>
+      <ul class="space-y-2 text-muted-foreground my-4">
+        <li class="flex gap-2"><span class="text-accent font-bold">•</span> Ngày 16/01: Kỹ thuật break power & kiểm soát cue ball (HLV Trần Minh).</li>
+        <li class="flex gap-2"><span class="text-accent font-bold">•</span> Ngày 17/01: Chọn gậy theo phong cách chơi, demo Predator Revo & Mezz ACE tại <a href="/san-pham" class="text-primary hover:underline cursor-pointer font-medium">showroom</a>.</li>
+        <li class="flex gap-2"><span class="text-accent font-bold">•</span> Ngày 18/01: Phụ kiện cần thiết & bảo quản nhanh với khăn microfiber, lơ Kamui (<a href="/phu-kien" class="text-primary hover:underline cursor-pointer font-medium">xem ngay</a>).</li>
+        <li class="flex gap-2"><span class="text-accent font-bold">•</span> Ngày 19/01: Thực hành safety & position play, gợi ý lộ trình <a href="/khoa-hoc" class="text-primary hover:underline cursor-pointer font-medium">khóa nâng cao</a>.</li>
+      </ul>
+
+      <h2>Hạ Tầng Bàn & Thiết Bị Thi Đấu</h2>
+      <p>Toàn bộ bàn thi đấu được nâng cấp cloth Simonis 860HR, bi Aramith Tournament, gậy hỗ trợ break/jump chuẩn giải. Hệ thống ánh sáng 5500K chống chói, đảm bảo quay livestream sắc nét. Người tham dự có thể đặt lịch test gậy tại khu <a href="/san-pham" class="text-primary hover:underline cursor-pointer font-medium">trải nghiệm sản phẩm</a> trước giờ thi đấu.</p>
+
+      <h2>Kết Nối Cộng Đồng & Interlink Tài Nguyên</h2>
+      <p>Để chuẩn bị tốt nhất, bạn có thể đọc thêm các bài hướng dẫn và đánh giá đã xuất bản:</p>
+      <ul class="space-y-2 text-muted-foreground my-4">
+        <li class="flex gap-2"><span class="text-accent font-bold">•</span> <a href="/blog/danh-gia-chi-tiet-predator-ts-16-curly-gen-2-cong-nghe-carbon-fiber-dinh-cao" class="text-primary hover:underline cursor-pointer font-medium">Đánh giá Predator TS 16 Curly Gen 2</a> để hiểu công nghệ low deflection.</li>
+        <li class="flex gap-2"><span class="text-accent font-bold">•</span> <a href="/blog/gay-bi-a-custom-tao-ra-tac-pham-nghe-thuat-doc-nhat-vo-nhi" class="text-primary hover:underline cursor-pointer font-medium">Gậy custom</a> nếu bạn muốn lên cấu hình riêng cho mùa giải.</li>
+        <li class="flex gap-2"><span class="text-accent font-bold">•</span> <a href="/blog/huong-dan-toan-dien-tat-ca-nhung-dieu-ban-can-biet-ve-gay-bi-a" class="text-primary hover:underline cursor-pointer font-medium">Hướng dẫn chọn gậy</a> cho người mới và trung cấp.</li>
+        <li class="flex gap-2"><span class="text-accent font-bold">•</span> <a href="/blog/phu-kien-bi-a-huong-dan-chon-mua-gang-tay-bao-co-lo-va-dau-co" class="text-primary hover:underline cursor-pointer font-medium">Phụ kiện bắt buộc</a> để hoàn thiện set-up thi đấu.</li>
+      </ul>
+
+      <h2>FAQ Nhanh Cho Người Tham Gia</h2>
+      <div class="bg-secondary/50 p-6 rounded-lg border border-border my-6">
+        <div class="space-y-3 text-muted-foreground">
+          <div>
+            <p class="font-semibold text-foreground">Tôi chưa có gậy phù hợp, có thể thuê không?</p>
+            <p>Có. Trung tâm có gậy thuê tiêu chuẩn, hoặc bạn có thể chọn mua nhanh tại <a href="/san-pham" class="text-primary hover:underline cursor-pointer font-medium">cửa hàng</a> với hỗ trợ cân chỉnh miễn phí trong ngày.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-foreground">Có bắt buộc mang găng tay?</p>
+            <p>Không bắt buộc nhưng khuyến nghị. Khu <a href="/phu-kien" class="text-primary hover:underline cursor-pointer font-medium">phụ kiện</a> có đủ size Predator/Mezz, được thử trước khi mua.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-foreground">Làm sao để nâng elo nhanh trước giải?</p>
+            <p>Đăng ký gói tập ngắn 4 buổi tại <a href="/khoa-hoc" class="text-primary hover:underline cursor-pointer font-medium">khoa-hoc</a>, kết hợp phân tích video và hướng dẫn break/safety chuyên sâu.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-foreground">Có dịch vụ thay đầu cơ gấp không?</p>
+            <p>Có. Đặt lịch trên trang <a href="/dich-vu" class="text-primary hover:underline cursor-pointer font-medium">dich-vu</a>, thời gian xử lý 24h, ưu đãi 15% tuần khai trương.</p>
+          </div>
+        </div>
+      </div>
+
+      <h2>Kết Luận & Lời Mời Tham Dự</h2>
+      <p>Trung tâm huấn luyện mới và Giải Mở Rộng 2025 đánh dấu bước tiến lớn của Đức Cường Billiards trong việc xây dựng cộng đồng và nâng chuẩn thi đấu. Dù bạn là người mới hay tay cơ dày dặn, đây là cơ hội để luyện tập, cọ xát và trải nghiệm thiết bị cao cấp.</p>
+      <div class=" p-8 rounded-lg my-8 border border-primary/20 text-center">
+        <h3 class="text-2xl font-serif font-bold text-foreground mb-4">Sẵn sàng tham gia?</h3>
+        <p class="text-muted-foreground mb-6">Đăng ký slot thi đấu, đặt lịch workshop hoặc đặt gậy/phụ kiện ngay hôm nay. Đội ngũ Đức Cường Billiards sẽ hỗ trợ bạn trong 24h.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="/lien-he" class="inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:opacity-90 transition-opacity">
+            Đăng ký thi đấu
+          </a>
+          <a href="/khoa-hoc" class="inline-flex items-center justify-center px-6 py-3 bg-accent text-accent-foreground rounded-lg font-medium hover:opacity-90 transition-opacity">
+            Xếp lịch tập luyện
+          </a>
+          <a href="/san-pham" class="inline-flex items-center justify-center px-6 py-3 bg-secondary text-foreground rounded-lg font-medium hover:opacity-90 transition-opacity">
+            Mua gậy & phụ kiện
+          </a>
+        </div>
+      </div>
+    `,
+    image: "https://gcs.tripi.vn/public-tripi/tripi-feed/img/473462IMD/image-10-quan-bida-cau-giay-ban-xin-co-ngon-khong-gian-rong-169069699940287.png",
+    author: "Đức Cường Billiards",
+    date: "2024-12-27",
+    category: "Tin tức",
+    readTime: 18,
+  },
+  {
+    id: "13",
+    title: "Checklist Nâng Cấp Phòng Bi A 2025: Thiết Bị, Vận Hành, Marketing Sự Kiện",
+    slug: "checklist-nang-cap-phong-bi-a-2025-thiet-bi-van-hanh-marketing-su-kien",
+    excerpt:
+      "Hướng dẫn từng bước để nâng cấp phòng bi a: chọn bàn/gậy/phụ kiện, tối ưu ánh sáng - cloth, set up dịch vụ bảo dưỡng, quy trình vận hành và kế hoạch marketing sự kiện. Đi kèm liên kết mua sắm, dịch vụ, khóa học và bài viết liên quan.",
+    content: `
+      <div class="border-l-4 border-primary p-6 mb-8 rounded-r-lg">
+        <p class="text-foreground font-semibold text-lg mb-2">Phiên bản 2025, khoảng 1.500 từ, có checklist hành động</p>
+        <p class="text-muted-foreground">Bài viết tổng hợp đầy đủ liên kết tới sản phẩm, phụ kiện, dịch vụ, khóa học và các bài blog chuyên sâu để bạn triển khai nhanh.</p>
+      </div>
+
+      <h2>Vì Sao Cần Nâng Cấp Phòng Bi A Ngay Đầu Năm?</h2>
+      <p>Nhu cầu chơi bi a tăng mạnh sau các giải phong trào và phủ sóng livestream. Một phòng bi a cạnh tranh cần: thiết bị chuẩn giải, dịch vụ bảo dưỡng nhanh, đội ngũ HLV/nhân viên hiểu sản phẩm, và kế hoạch sự kiện/marketing rõ ràng. Đây là hướng dẫn triển khai theo từng tuần.</p>
+
+      <h2>Tuần 1: Chuẩn Hóa Thiết Bị Cốt Lõi</h2>
+      <div class="grid md:grid-cols-2 gap-4 my-6">
+        <div class="p-5 rounded-lg border border-primary/20">
+          <h4 class="font-semibold text-foreground mb-2">Bàn & Cloth</h4>
+          <p class="text-sm text-muted-foreground">Ưu tiên cloth 860HR, bi Aramith, cân bàn định kỳ. Đặt lịch bảo dưỡng tại <a href="/dich-vu" class="text-primary hover:underline cursor-pointer font-medium">dịch vụ</a>.</p>
+        </div>
+        <div class="p-5 rounded-lg border border-primary/20">
+          <h4 class="font-semibold text-foreground mb-2">Gậy & Cue Rack</h4>
+          <p class="text-sm text-muted-foreground">Trang bị tối thiểu 4 gậy carbon và 6 gậy gỗ cân bằng. Tham khảo <a href="/san-pham" class="text-primary hover:underline cursor-pointer font-medium">cửa hàng sản phẩm</a>.</p>
+        </div>
+        <div class="p-5 rounded-lg border border-primary/20">
+          <h4 class="font-semibold text-foreground mb-2">Phụ Kiện Thiết Yếu</h4>
+          <p class="text-sm text-muted-foreground">Găng tay, lơ, khăn microfiber, bao cơ cho thuê. Xem nhanh <a href="/phu-kien" class="text-primary hover:underline cursor-pointer font-medium">phụ kiện</a>.</p>
+        </div>
+        <div class="p-5 rounded-lg border border-primary/20">
+          <h4 class="font-semibold text-foreground mb-2">Setup Gậy Custom</h4>
+          <p class="text-sm text-muted-foreground">Trưng bày 1-2 mẫu demo và poster <a href="/gay-custom" class="text-primary hover:underline cursor-pointer font-medium">gậy custom</a> để upsell.</p>
+        </div>
+      </div>
+
+      <h2>Tuần 2: Vận Hành & Bảo Dưỡng Nhanh</h2>
+      <div class="p-6 rounded-lg border border-border my-6">
+        <h3 class="font-semibold text-foreground mb-3">Checklist dịch vụ</h3>
+        <ul class="space-y-2 text-muted-foreground">
+          <li class="flex gap-2"><span class="text-accent font-bold mt-1">✓</span> Thay đầu cơ định kỳ: đặt lịch 24h tại <a href="/dich-vu" class="text-primary hover:underline cursor-pointer font-medium">dich-vu</a>, dùng Kamui/Tiger.</li>
+          <li class="flex gap-2"><span class="text-accent font-bold mt-1">✓</span> Vệ sinh shaft + đánh bóng hàng tuần; khăn microfiber đặt sẵn quầy <a href="/phu-kien" class="text-primary hover:underline cursor-pointer font-medium">phu-kien</a>.</li>
+          <li class="flex gap-2"><span class="text-accent font-bold mt-1">✓</span> Kiểm tra joint, thay chốt, căn chỉnh cơ sốc. Có bảng giá niêm yết tại quầy.</li>
+          <li class="flex gap-2"><span class="text-accent font-bold mt-1">✓</span> Kiểm tra cloth và bi mỗi sáng: lau bi, hút bụi cloth, đo độ căng.</li>
+        </ul>
+      </div>
+
+      <h2>Tuần 3: Đào Tạo Nhân Sự & Upsell</h2>
+      <p>Nhân viên front desk cần hiểu sản phẩm và kỹ thuật cơ bản để hỗ trợ khách. Hãy đăng ký gói huấn luyện ngắn ngày:</p>
+      <ol class="list-decimal list-inside space-y-2 text-muted-foreground">
+        <li>2 buổi kỹ thuật cơ bản tại <a href="/khoa-hoc/khoa-bi-a-co-ban" class="text-primary hover:underline cursor-pointer font-medium">khóa cơ bản</a>.</li>
+        <li>1 buổi demo thiết bị: gậy Predator/Mezz, bao cơ, lơ Kamui tại <a href="/san-pham" class="text-primary hover:underline cursor-pointer font-medium">showroom</a>.</li>
+        <li>1 buổi kỹ năng tư vấn phụ kiện tại <a href="/phu-kien" class="text-primary hover:underline cursor-pointer font-medium">phụ kiện</a>.</li>
+      </ol>
+
+      <h2>Tuần 4: Marketing Sự Kiện & Liên Kết Cộng Đồng</h2>
+      <div class="grid md:grid-cols-2 gap-4 my-6">
+        <div class="p-5 rounded-lg border border-primary/20">
+          <h4 class="font-semibold text-foreground mb-2">Mini Tournament</h4>
+          <p class="text-sm text-muted-foreground">Tổ chức giải 16-32 người (race to 5/7). Quà: voucher 10% <a href="/san-pham" class="text-primary hover:underline cursor-pointer font-medium">san-pham</a>, giảm 15% <a href="/dich-vu" class="text-primary hover:underline cursor-pointer font-medium">dich-vu</a>.</p>
+        </div>
+        <div class="p-5 rounded-lg border border-primary/20">
+          <h4 class="font-semibold text-foreground mb-2">Workshop Hàng Tuần</h4>
+          <p class="text-sm text-muted-foreground">Luân phiên: break power, safety, chọn gậy, bảo quản. Đặt form tại <a href="/lien-he" class="text-primary hover:underline cursor-pointer font-medium">lien-he</a>.</p>
+        </div>
+      </div>
+
+      <h2>Gói Thiết Bị Gợi Ý</h2>
+      <div class="border-l-4 border-accent p-6 rounded-r-lg my-6">
+        <p class="font-semibold text-foreground mb-3">Set chuẩn 3 cấp độ</p>
+        <ul class="space-y-2 text-muted-foreground">
+          <li class="flex gap-2"><span class="text-accent font-bold mt-1">•</span> Cao cấp: Predator Revo + bao cơ Urbain 4 ngăn (<a href="/san-pham/gay-bi-a-predator-revo-12-4" class="text-primary hover:underline cursor-pointer font-medium">xem</a>).</li>
+          <li class="flex gap-2"><span class="text-accent font-bold mt-1">•</span> Trung cấp: Mezz ACE + bao 2 ngăn Mezz (<a href="/phu-kien/bao-co-2-ngan-mezz" class="text-primary hover:underline cursor-pointer font-medium">xem</a>).</li>
+          <li class="flex gap-2"><span class="text-accent font-bold mt-1">•</span> Phổ thông: Cue composite + găng tay Predator + lơ Kamui (<a href="/phu-kien" class="text-primary hover:underline cursor-pointer font-medium">phu-kien</a>).</li>
+        </ul>
+      </div>
+
+      <h2>Quy Trình Kiểm Soát Chất Lượng Hàng Ngày</h2>
+      <ul class="space-y-2 text-muted-foreground my-4">
+        <li class="flex gap-2"><span class="text-accent font-bold">✓</span> 09:00: Lau bi, hút bụi cloth, kiểm tra ánh sáng (5500K, không chói).</li>
+        <li class="flex gap-2"><span class="text-accent font-bold">✓</span> 12:00: Kiểm tra joint các gậy thuê, thay lơ nếu mòn.</li>
+        <li class="flex gap-2"><span class="text-accent font-bold">✓</span> 18:00: Đo độ căng cloth, cân bàn nếu lệch >1mm.</li>
+      </ul>
+
+      <h2>Interlink Tài Nguyên Hữu Ích</h2>
+      <div class="p-6 rounded-lg border border-border my-6">
+        <ul class="space-y-2 text-muted-foreground">
+          <li class="flex gap-2"><span class="text-accent font-bold">•</span> <a href="/blog/danh-gia-chi-tiet-predator-ts-16-curly-gen-2-cong-nghe-carbon-fiber-dinh-cao" class="text-primary hover:underline cursor-pointer font-medium">Đánh giá Predator TS 16 Curly Gen 2</a> để chọn gậy cao cấp.</li>
+          <li class="flex gap-2"><span class="text-accent font-bold">•</span> <a href="/blog/phu-kien-bi-a-huong-dan-chon-mua-gang-tay-bao-co-lo-va-dau-co" class="text-primary hover:underline cursor-pointer font-medium">Hướng dẫn phụ kiện</a> để lên danh mục nhập hàng.</li>
+          <li class="flex gap-2"><span class="text-accent font-bold">•</span> <a href="/blog/gay-bi-a-custom-tao-ra-tac-pham-nghe-thuat-doc-nhat-vo-nhi" class="text-primary hover:underline cursor-pointer font-medium">Gậy custom</a> cho dịch vụ đặt làm riêng.</li>
+          <li class="flex gap-2"><span class="text-accent font-bold">•</span> <a href="/blog/khoa-hoc-bi-a-tu-co-ban-den-chuyen-nghiep-hanh-trinh-nang-cao-ky-nang" class="text-primary hover:underline cursor-pointer font-medium">Lộ trình khóa học</a> để đào tạo nhân sự.</li>
+        </ul>
+      </div>
+
+      <h2>FAQ Nhanh</h2>
+      <div class="p-6 rounded-lg my-6 border border-primary/20">
+        <div class="space-y-3 text-muted-foreground">
+          <div>
+            <p class="font-semibold text-foreground">Nên ưu tiên nâng cấp gì trước?</p>
+            <p>Bàn (cloth + bi) và ánh sáng. Sau đó là gậy demo và dịch vụ bảo dưỡng tại <a href="/dich-vu" class="text-primary hover:underline cursor-pointer font-medium">dich-vu</a>.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-foreground">Có cần gậy carbon không?</p>
+            <p>Có, nên có 2-4 cây cho thuê/demo để khách trải nghiệm trước khi mua tại <a href="/san-pham" class="text-primary hover:underline cursor-pointer font-medium">san-pham</a>.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-foreground">Làm sao giữ cloth bền?</p>
+            <p>Vệ sinh hàng ngày, hạn chế đồ uống trên bàn, định kỳ cân bàn và thay lơ đúng loại (Kamui/Tiger).</p>
+          </div>
+          <div>
+            <p class="font-semibold text-foreground">Thu hút khách mới bằng gì?</p>
+            <p>Workshop miễn phí, giải mini cuối tuần, combo giờ chơi + phụ kiện giảm giá tại <a href="/phu-kien" class="text-primary hover:underline cursor-pointer font-medium">phu-kien</a>.</p>
+          </div>
+        </div>
+      </div>
+
+      <h2>Kết Luận & Hành Động Ngay</h2>
+      <p>Chia kế hoạch thành 4 tuần giúp bạn nâng cấp phòng bi a mà không gián đoạn hoạt động. Ưu tiên thiết bị cốt lõi, dịch vụ nhanh, đào tạo nhân sự và lịch sự kiện rõ ràng. Tận dụng các liên kết sẵn có để triển khai ngay.</p>
+      <div class="p-8 rounded-lg my-8 border border-primary/20 text-center">
+        <h3 class="text-2xl font-serif font-bold text-foreground mb-4">Bắt đầu nâng cấp hôm nay</h3>
+        <p class="text-muted-foreground mb-6">Đặt lịch bảo dưỡng, nhập hàng phụ kiện và lên lịch workshop/mini giải ngay trong tuần.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="/dich-vu" class="inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:opacity-90 transition-opacity">
+            Đặt lịch bảo dưỡng
+          </a>
+          <a href="/san-pham" class="inline-flex items-center justify-center px-6 py-3 bg-secondary text-foreground rounded-lg font-medium hover:opacity-90 transition-opacity">
+            Nhập gậy & bàn
+          </a>
+          <a href="/phu-kien" class="inline-flex items-center justify-center px-6 py-3 bg-accent text-accent-foreground rounded-lg font-medium hover:opacity-90 transition-opacity">
+            Mua phụ kiện nhanh
+          </a>
+        </div>
+      </div>
+    `,
+    image: "https://gcs.tripi.vn/public-tripi/tripi-feed/img/473462UUe/image-10-quan-bida-cau-giay-ban-xin-co-ngon-khong-gian-rong-169069700043672.png",
+    author: "Đức Cường Billiards",
+    date: "2024-12-28",
+    category: "Hướng dẫn",
+    readTime: 18,
+  },
+  {
+    id: "14",
+    title: "Chiến Lược Tăng Doanh Thu Phòng Bi A Mùa Tết 2025",
+    slug: "chien-luoc-tang-doanh-thu-phong-bi-a-mua-tet-2025",
+    excerpt:
+      "Kế hoạch 4 tuần trước Tết: tối ưu thiết bị, gói combo giờ chơi + phụ kiện, mini giải cuối tuần, marketing mạng xã hội và dịch vụ bảo dưỡng nhanh. Có interlink mua sắm, dịch vụ, khóa học, blog liên quan.",
+    content: `
+      <div class="border-l-4 border-primary p-6 mb-8 rounded-r-lg">
+        <p class="text-foreground font-semibold text-lg mb-2">Kế hoạch 1.500 từ, hành động ngay trong 4 tuần</p>
+        <p class="text-muted-foreground">Tập trung vào doanh thu cao điểm Tết: tăng ARPU bằng combo, giữ chất lượng bàn/gậy, tổ chức sự kiện hút khách và tái mua phụ kiện.</p>
+      </div>
+
+      <h2>Tuần 1: Làm Mới Thiết Bị & Không Gian</h2>
+      <p>Khách Tết thường chú ý trải nghiệm “mới” và sạch. Làm mới cloth, bi, gậy thuê và ánh sáng sẽ tạo ấn tượng đầu tiên.</p>
+      <div class="grid md:grid-cols-2 gap-4 my-6">
+        <div class="p-5 rounded-lg border border-primary/20">
+          <h4 class="font-semibold text-foreground mb-2">Cloth & Bi</h4>
+          <p class="text-sm text-muted-foreground">Thay/giặt cloth, lau bi Aramith hằng ngày. Đặt lịch tại <a href="/dich-vu" class="text-primary hover:underline cursor-pointer font-medium">dich-vu</a>.</p>
+        </div>
+        <div class="p-5 rounded-lg border border-primary/20">
+          <h4 class="font-semibold text-foreground mb-2">Gậy Thuê & Demo</h4>
+          <p class="text-sm text-muted-foreground">Bổ sung 2-3 gậy carbon demo để upsell tại <a href="/san-pham" class="text-primary hover:underline cursor-pointer font-medium">san-pham</a>.</p>
+        </div>
+        <div class="p-5 rounded-lg border border-primary/20">
+          <h4 class="font-semibold text-foreground mb-2">Phụ Kiện Tối Thiểu</h4>
+          <p class="text-sm text-muted-foreground">Găng tay đủ size, lơ Kamui, khăn microfiber, bao cơ thuê. Xem danh mục tại <a href="/phu-kien" class="text-primary hover:underline cursor-pointer font-medium">phu-kien</a>.</p>
+        </div>
+        <div class="p-5 rounded-lg border border-primary/20">
+          <h4 class="font-semibold text-foreground mb-2">Poster & Menu</h4>
+          <p class="text-sm text-muted-foreground">Dán menu combo Tết, poster mini giải, QR code đặt lịch <a href="/lien-he" class="text-primary hover:underline cursor-pointer font-medium">lien-he</a>.</p>
+        </div>
+      </div>
+
+      <h2>Tuần 2: Combo Doanh Thu Cao</h2>
+      <div class="p-6 rounded-lg border border-primary/20 my-6">
+        <h3 class="font-semibold text-foreground mb-3">Gợi ý 3 combo</h3>
+        <ul class="space-y-2 text-muted-foreground">
+          <li class="flex gap-2"><span class="text-accent font-bold mt-1">•</span> Combo “Try Carbon”: 2 giờ chơi + gậy carbon demo + găng tay thuê + giảm 5% khi mua tại <a href="/san-pham" class="text-primary hover:underline cursor-pointer font-medium">san-pham</a>.</li>
+          <li class="flex gap-2"><span class="text-accent font-bold mt-1">•</span> Combo “Bảo Dưỡng Nhanh”: Giảm 15% thay đầu cơ trong ngày tại <a href="/dich-vu" class="text-primary hover:underline cursor-pointer font-medium">dich-vu</a> kèm 1 giờ bàn free.</li>
+          <li class="flex gap-2"><span class="text-accent font-bold mt-1">•</span> Combo “Phụ Kiện Tết”: Giờ chơi + găng + lơ + khăn microfiber giảm 10% tại <a href="/phu-kien" class="text-primary hover:underline cursor-pointer font-medium">phu-kien</a>.</li>
+        </ul>
+      </div>
+
+      <h2>Tuần 3: Mini Giải & Workshop Cuối Tuần</h2>
+      <p>Luân phiên mini giải (16-32 người, race to 5/7) và workshop 60 phút để kéo traffic đều.</p>
+      <div class="grid md:grid-cols-2 gap-4 my-6">
+        <div class="p-5 rounded-lg border border-primary/20">
+          <h4 class="font-semibold text-foreground mb-2">Mini giải</h4>
+          <p class="text-sm text-muted-foreground">Giải thưởng: voucher 10% <a href="/san-pham" class="text-primary hover:underline cursor-pointer font-medium">san-pham</a>, 15% <a href="/dich-vu" class="text-primary hover:underline cursor-pointer font-medium">dich-vu</a>, phụ kiện tặng kèm.</p>
+        </div>
+        <div class="p-5 rounded-lg border border-primary/20">
+          <h4 class="font-semibold text-foreground mb-2">Workshop</h4>
+          <p class="text-sm text-muted-foreground">Chủ đề: break power, safety, chọn gậy, bảo dưỡng. Form đăng ký tại <a href="/lien-he" class="text-primary hover:underline cursor-pointer font-medium">lien-he</a>.</p>
+        </div>
+      </div>
+
+      <h2>Tuần 4: Upsell & Chăm Sóc Khách</h2>
+      <div class="p-6 rounded-lg border border-border my-6">
+        <h3 class="font-semibold text-foreground mb-3">Checklist</h3>
+        <ul class="space-y-2 text-muted-foreground">
+          <li class="flex gap-2"><span class="text-accent font-bold mt-1">✓</span> SMS/Inbox khách thân thiết: tặng lơ + khăn khi đặt bàn sớm.</li>
+          <li class="flex gap-2"><span class="text-accent font-bold mt-1">✓</span> Gợi ý gậy custom Tết tại <a href="/gay-custom" class="text-primary hover:underline cursor-pointer font-medium">gay-custom</a>, nhận đặt cọc nhanh.</li>
+          <li class="flex gap-2"><span class="text-accent font-bold mt-1">✓</span> Đẩy gói học 4 buổi cho người mới tại <a href="/khoa-hoc/khoa-bi-a-co-ban" class="text-primary hover:underline cursor-pointer font-medium">khoa hoc co ban</a> để giữ khách quay lại.</li>
+        </ul>
+      </div>
+
+      <h2>Quy Trình Bảo Dưỡng Hằng Ngày Dịp Đông Ẩm</h2>
+      <ul class="space-y-2 text-muted-foreground my-4">
+        <li class="flex gap-2"><span class="text-accent font-bold">✓</span> Sấy nhẹ không gian trước giờ mở, tránh ẩm cloth.</li>
+        <li class="flex gap-2"><span class="text-accent font-bold">✓</span> Lau gậy, kiểm tra joint, thay lơ nếu mòn.</li>
+        <li class="flex gap-2"><span class="text-accent font-bold">✓</span> Đặt khăn microfiber sẵn mỗi bàn, nhắc khách dùng.</li>
+      </ul>
+
+      <h2>Interlink Bài Viết & Tài Nguyên</h2>
+      <div class="p-6 rounded-lg border border-primary/20 my-6">
+        <ul class="space-y-2 text-muted-foreground">
+          <li class="flex gap-2"><span class="text-accent font-bold">•</span> <a href="/blog/checklist-nang-cap-phong-bi-a-2025-thiet-bi-van-hanh-marketing-su-kien" class="text-primary hover:underline cursor-pointer font-medium">Checklist nâng cấp phòng bi a 2025</a> để chuẩn hóa hạ tầng.</li>
+          <li class="flex gap-2"><span class="text-accent font-bold">•</span> <a href="/blog/danh-gia-chi-tiet-predator-ts-16-curly-gen-2-cong-nghe-carbon-fiber-dinh-cao" class="text-primary hover:underline cursor-pointer font-medium">Đánh giá Predator TS 16 Curly Gen 2</a> phục vụ upsell gậy.</li>
+          <li class="flex gap-2"><span class="text-accent font-bold">•</span> <a href="/blog/phu-kien-bi-a-huong-dan-chon-mua-gang-tay-bao-co-lo-va-dau-co" class="text-primary hover:underline cursor-pointer font-medium">Phụ kiện cần có</a> để đóng gói combo.</li>
+          <li class="flex gap-2"><span class="text-accent font-bold">•</span> <a href="/blog/khoa-hoc-bi-a-tu-co-ban-den-chuyen-nghiep-hanh-trinh-nang-cao-ky-nang" class="text-primary hover:underline cursor-pointer font-medium">Lộ trình khóa học</a> cho upsell đào tạo.</li>
+        </ul>
+      </div>
+
+      <h2>FAQ Nhanh</h2>
+      <div class="p-6 rounded-lg border border-primary/20 my-6">
+        <div class="space-y-3 text-muted-foreground">
+          <div>
+            <p class="font-semibold text-foreground">Ngân sách nhỏ nên ưu tiên gì?</p>
+            <p>Ưu tiên cloth sạch, bi chuẩn, 1-2 gậy carbon demo và phụ kiện thiết yếu tại <a href="/phu-kien" class="text-primary hover:underline cursor-pointer font-medium">phu-kien</a>.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-foreground">Combo nào lời nhất?</p>
+            <p>Combo “Try Carbon” vì kéo theo mua gậy/phụ kiện sau trải nghiệm.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-foreground">Có cần livestream mini giải?</p>
+            <p>Nên livestream ngắn (Reels/Shorts) kèm mã giảm giá <a href="/san-pham" class="text-primary hover:underline cursor-pointer font-medium">san-pham</a> và <a href="/dich-vu" class="text-primary hover:underline cursor-pointer font-medium">dich-vu</a>.</p>
+          </div>
+        </div>
+      </div>
+
+      <h2>Kết Luận & CTA</h2>
+      <p>Lên lịch 4 tuần trước Tết, ưu tiên trải nghiệm thiết bị, combo rõ ràng, mini giải đều đặn và upsell phụ kiện/gậy/học. Dùng checklist này để triển khai ngay.</p>
+      <div class="p-8 rounded-lg my-8 border border-primary/20 text-center">
+        <h3 class="text-2xl font-serif font-bold text-foreground mb-4">Triển khai ngay hôm nay</h3>
+        <p class="text-muted-foreground mb-6">Đặt lịch bảo dưỡng, nhập phụ kiện và mở đăng ký mini giải tuần này.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="/dich-vu" class="inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:opacity-90 transition-opacity">
+            Đặt lịch bảo dưỡng
+          </a>
+          <a href="/phu-kien" class="inline-flex items-center justify-center px-6 py-3 bg-accent text-accent-foreground rounded-lg font-medium hover:opacity-90 transition-opacity">
+            Mua phụ kiện Tết
+          </a>
+          <a href="/san-pham" class="inline-flex items-center justify-center px-6 py-3 bg-secondary text-foreground rounded-lg font-medium hover:opacity-90 transition-opacity">
+            Nhập gậy demo
+          </a>
+        </div>
+      </div>
+    `,
+    image: "https://gcs.tripi.vn/public-tripi/tripi-feed/img/473462oqe/image-10-quan-bida-cau-giay-ban-xin-co-ngon-khong-gian-rong-169069700074908.png",
+    author: "Đức Cường Billiards",
+    date: "2024-12-29",
+    category: "Hướng dẫn",
+    readTime: 18,
+  },
+  {
+    id: "15",
+    title: "Bảo Dưỡng Gậy Nhanh Trước Giải: 7 Bước 800 Chữ",
+    slug: "bao-duong-gay-nhanh-truoc-giai-7-buoc-800-chu",
+    excerpt:
+      "Checklist 7 bước bảo dưỡng gậy trong 24h trước giải: lau shaft, thay lơ, kiểm joint, cân chạm, test cue ball. Có link dịch vụ, phụ kiện và bài blog liên quan.",
+    content: `
+      <div class="border-l-4 border-primary p-6 mb-8 rounded-r-lg">
+        <p class="text-foreground font-semibold text-lg mb-2">800 chữ, tập trung thao tác nhanh</p>
+        <p class="text-muted-foreground">Dùng checklist này để đảm bảo gậy ở trạng thái tốt nhất trước khi thi đấu hoặc sparring.</p>
+      </div>
+
+      <h2>1. Lau Shaft & Butt (10 phút)</h2>
+      <p>Dùng khăn microfiber khô rồi khăn hơi ẩm, lau theo trục gậy. Tránh hóa chất mạnh. Nếu có vết dơ, dùng dung dịch nhẹ chuyên dụng. Khăn có sẵn tại <a href="/phu-kien" class="text-primary hover:underline cursor-pointer font-medium">phu-kien</a>.</p>
+
+      <h2>2. Kiểm Tra Joint (5 phút)</h2>
+      <p>Vặn khít, kiểm tra ren, lau sạch bụi. Nếu joint lỏng hoặc ren mòn, đặt lịch xử lý nhanh tại <a href="/dich-vu" class="text-primary hover:underline cursor-pointer font-medium">dich-vu</a>.</p>
+
+      <h2>3. Thay Lơ Nếu Mòn (15 phút)</h2>
+      <p>Lơ mỏng sẽ khó kiểm soát spin. Chuẩn bị lơ Kamui/Tiger, dán, ép, bo mép, chà phẳng. Nếu không quen, gửi tại <a href="/dich-vu" class="text-primary hover:underline cursor-pointer font-medium">dịch vụ bảo dưỡng</a> (24h).</p>
+
+      <h2>4. Chà Nhẹ Ferrule & Vệ Sinh Đầu Cơ (5 phút)</h2>
+      <p>Dùng giấy nhám rất mịn hoặc bột chà nhẹ để làm sạch ferrule, tránh ăn sâu. Giữ mặt lơ phẳng và khô.</p>
+
+      <h2>5. Kiểm Tra Straightness (5 phút)</h2>
+      <p>Lăn gậy trên mặt phẳng sạch; quan sát độ lệch. Nếu lệch, cân nhắc thay shaft hoặc gửi kiểm tra tại <a href="/dich-vu" class="text-primary hover:underline cursor-pointer font-medium">dich-vu</a>.</p>
+
+      <h2>6. Test Cú Đánh Thực Tế (10 phút)</h2>
+      <p>Thực hiện 5-10 cú stop/follow/draw với cue ball. Nếu cue ball không đi đúng ý, xem lại lơ, lực đánh, hoặc kiểm tra lại joint/straightness.</p>
+
+      <h2>7. Chuẩn Bị Phụ Kiện Dự Phòng (5 phút)</h2>
+      <ul class="space-y-2 text-muted-foreground my-4">
+        <li class="flex gap-2"><span class="text-accent font-bold">•</span> 1 lơ dự phòng.</li>
+        <li class="flex gap-2"><span class="text-accent font-bold">•</span> Khăn microfiber.</li>
+        <li class="flex gap-2"><span class="text-accent font-bold">•</span> Găng tay dự phòng (mồ hôi tay).</li>
+        <li class="flex gap-2"><span class="text-accent font-bold">•</span> Một bao cơ tốt để tránh va đập (<a href="/phu-kien/bao-co-2-ngan-mezz" class="text-primary hover:underline cursor-pointer font-medium">bao 2 ngăn Mezz</a>).</li>
+      </ul>
+
+      <h2>Interlink Tài Nguyên</h2>
+      <div class="p-6 rounded-lg border border-primary/20 my-6">
+        <ul class="space-y-2 text-muted-foreground">
+          <li class="flex gap-2"><span class="text-accent font-bold">•</span> <a href="/blog/dich-vu-bao-duong-va-sua-chua-gay-bi-a-chuyen-nghiep" class="text-primary hover:underline cursor-pointer font-medium">Dịch vụ bảo dưỡng</a> (thay lơ, joint, đánh bóng).</li>
+          <li class="flex gap-2"><span class="text-accent font-bold">•</span> <a href="/blog/phu-kien-bi-a-huong-dan-chon-mua-gang-tay-bao-co-lo-va-dau-co" class="text-primary hover:underline cursor-pointer font-medium">Phụ kiện cần có</a> (lơ, găng, khăn, bao cơ).</li>
+          <li class="flex gap-2"><span class="text-accent font-bold">•</span> <a href="/blog/danh-gia-chi-tiet-predator-ts-16-curly-gen-2-cong-nghe-carbon-fiber-dinh-cao" class="text-primary hover:underline cursor-pointer font-medium">Đánh giá Predator TS 16 Curly Gen 2</a> nếu muốn nâng cấp shaft.</li>
+        </ul>
+      </div>
+
+      <h2>Kết Luận</h2>
+      <p>7 bước trên giúp gậy sẵn sàng thi đấu trong 24h. Nếu thiếu dụng cụ hoặc cần xử lý nhanh, hãy ghé <a href="/phu-kien" class="text-primary hover:underline cursor-pointer font-medium">phu-kien</a> để mua lơ/khăn/găng, hoặc đặt lịch tại <a href="/dich-vu" class="text-primary hover:underline cursor-pointer font-medium">dich-vu</a> để kỹ thuật viên hoàn thiện.</p>
+      <div class="p-8 rounded-lg my-8 border border-primary/20 text-center">
+        <h3 class="text-2xl font-serif font-bold text-foreground mb-4">Sẵn sàng ra bàn?</h3>
+        <p class="text-muted-foreground mb-6">Làm xong checklist, test 10 cú stop/follow/draw rồi lên bàn ngay.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="/dich-vu" class="inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:opacity-90 transition-opacity">
+            Đặt lịch bảo dưỡng
+          </a>
+          <a href="/phu-kien" class="inline-flex items-center justify-center px-6 py-3 bg-accent text-accent-foreground rounded-lg font-medium hover:opacity-90 transition-opacity">
+            Mua lơ & phụ kiện
+          </a>
+        </div>
+      </div>
+    `,
+    image: "/g1a1.jpg",
+    author: "Đức Cường Billiards",
+    date: "2024-12-30",
+    category: "Hướng dẫn",
+    readTime: 8,
+  },
+  {
     id: "11",
     title: "Khóa Bi A Cơ Bản: Hành Trình Bắt Đầu Từ Con Số Không Đến Thành Thạo",
     slug: "khoa-bi-a-co-ban-hanh-trinh-bat-dau-tu-con-so-khong-den-thanh-thao",
     excerpt: "Khám phá chi tiết về Khóa Bi A Cơ Bản tại Đức Cường Billiards: từ nội dung học, phương pháp giảng dạy, đến lợi ích và cách đăng ký. Hành trình hoàn hảo cho người mới bắt đầu.",
     content: `
-      <div class="bg-primary/10 border-l-4 border-primary p-6 mb-8 rounded-r-lg">
+      <div class=" border-l-4 border-primary p-6 mb-8 rounded-r-lg">
         <p class="text-foreground font-semibold text-lg mb-2">Khóa Học Dành Cho Người Mới Bắt Đầu</p>
         <p class="text-muted-foreground">Khóa Bi A Cơ Bản là điểm khởi đầu hoàn hảo cho hành trình chinh phục môn thể thao bi a. Với 8 buổi học trong 2 tuần, bạn sẽ nắm vững các kỹ thuật cơ bản và tự tin bước vào thế giới bi a chuyên nghiệp.</p>
       </div>
@@ -76,7 +581,7 @@ export const blogPosts: BlogPost[] = [
       <p>Khóa Bi A Cơ Bản được thiết kế một cách khoa học, đi từ những kiến thức cơ bản nhất đến các kỹ thuật nâng cao hơn. Dưới đây là nội dung chi tiết của từng buổi học:</p>
 
       <h3>Buổi 1-2: Nền Tảng Cơ Bản</h3>
-      <div class="bg-primary/5 border-l-4 border-primary p-5 rounded-r-lg mb-4">
+      <div class=" border-l-4 border-primary p-5 rounded-r-lg mb-4">
         <h4 class="font-semibold text-foreground mb-3">Mục tiêu: Làm quen với gậy và tư thế cơ bản</h4>
         <ul class="space-y-2 text-muted-foreground">
           <li class="flex items-start gap-2">
@@ -95,7 +600,7 @@ export const blogPosts: BlogPost[] = [
       </div>
 
       <h3>Buổi 3-4: Kỹ Thuật Đánh Cơ Bản</h3>
-      <div class="bg-primary/5 border-l-4 border-primary p-5 rounded-r-lg mb-4">
+      <div class=" border-l-4 border-primary p-5 rounded-r-lg mb-4">
         <h4 class="font-semibold text-foreground mb-3">Mục tiêu: Thành thạo cú đánh thẳng</h4>
         <ul class="space-y-2 text-muted-foreground">
           <li class="flex items-start gap-2">
@@ -114,7 +619,7 @@ export const blogPosts: BlogPost[] = [
       </div>
 
       <h3>Buổi 5-6: Các Shot Cơ Bản</h3>
-      <div class="bg-primary/5 border-l-4 border-primary p-5 rounded-r-lg mb-4">
+      <div class=" border-l-4 border-primary p-5 rounded-r-lg mb-4">
         <h4 class="font-semibold text-foreground mb-3">Mục tiêu: Nắm vững các kỹ thuật shot cơ bản</h4>
         <ul class="space-y-2 text-muted-foreground">
           <li class="flex items-start gap-2">
@@ -133,7 +638,7 @@ export const blogPosts: BlogPost[] = [
       </div>
 
       <h3>Buổi 7-8: Luyện Tập Và Hoàn Thiện</h3>
-      <div class="bg-primary/5 border-l-4 border-primary p-5 rounded-r-lg mb-4">
+      <div class=" border-l-4 border-primary p-5 rounded-r-lg mb-4">
         <h4 class="font-semibold text-foreground mb-3">Mục tiêu: Tổng hợp và hoàn thiện kỹ năng</h4>
         <ul class="space-y-2 text-muted-foreground">
           <li class="flex items-start gap-2">
@@ -154,7 +659,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Giảng Viên - HLV Nguyễn Văn A</h2>
       <div class="bg-secondary/50 p-6 rounded-lg my-6 border border-border">
         <div class="flex items-start gap-4">
-          <div class="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+          <div class="w-20 h-20 rounded-full  flex items-center justify-center shrink-0">
             <span class="text-4xl font-serif text-primary">HLV</span>
           </div>
           <div class="flex-1">
@@ -195,7 +700,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Lợi Ích Khi Tham Gia Khóa Học</h2>
       <p>Tham gia Khóa Bi A Cơ Bản, bạn sẽ nhận được nhiều lợi ích không chỉ về kỹ năng mà còn về trải nghiệm:</p>
 
-      <div class="bg-primary/5 p-6 rounded-lg my-6">
+      <div class=" p-6 rounded-lg my-6">
         <h3 class="text-lg font-semibold text-foreground mb-4">Những gì bạn sẽ nhận được:</h3>
         <ul class="space-y-3 text-muted-foreground">
           <li class="flex items-start gap-3">
@@ -281,7 +786,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Sau Khi Hoàn Thành Khóa Học</h2>
       <p>Sau khi hoàn thành Khóa Bi A Cơ Bản, bạn sẽ có nền tảng vững chắc để tiếp tục phát triển. Bạn có thể:</p>
 
-      <div class="bg-primary/10 p-6 rounded-lg my-6 border border-primary/20">
+      <div class=" p-6 rounded-lg my-6 border border-primary/20">
         <h3 class="font-semibold text-foreground mb-4">Hướng Phát Triển Tiếp Theo</h3>
         <div class="space-y-3">
           <div>
@@ -302,7 +807,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Đăng Ký Khóa Học</h2>
       <p>Bạn đã sẵn sàng bắt đầu hành trình chinh phục môn thể thao bi a? Hãy đăng ký <a href="/khoa-hoc" class="text-primary hover:underline cursor-pointer font-medium">Khóa Bi A Cơ Bản</a> ngay hôm nay!</p>
 
-      <div class="bg-primary/10 p-8 rounded-lg my-8 border border-primary/20 text-center">
+      <div class=" p-8 rounded-lg my-8 border border-primary/20 text-center">
         <h3 class="text-2xl font-serif font-bold text-foreground mb-4">Sẵn Sàng Bắt Đầu?</h3>
         <p class="text-muted-foreground mb-6">Đăng ký ngay để nhận tư vấn miễn phí và ưu đãi đặc biệt cho học viên mới. Chúng tôi sẽ liên hệ với bạn trong vòng 24 giờ để tư vấn chi tiết về khóa học.</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
@@ -355,7 +860,7 @@ export const blogPosts: BlogPost[] = [
       <p>Găng tay bi a là phụ kiện đầu tiên mà mọi tay cơ nên sở hữu. Không chỉ giúp tay luôn khô ráo, găng tay còn tăng độ trơn mượt khi đánh và giảm ma sát giữa tay và gậy.</p>
 
       <h3>Găng Tay Predator - Lựa Chọn Hàng Đầu</h3>
-      <div class="bg-primary/5 border border-primary/20 p-5 rounded-lg mb-4">
+      <div class=" border border-primary/20 p-5 rounded-lg mb-4">
         <p class="font-semibold text-foreground mb-2">Sản phẩm nổi bật</p>
         <p><a href="/phu-kien/gang-tay-bi-a-predator" class="text-primary hover:underline cursor-pointer font-medium">Găng tay Predator</a> - <strong>850,000 VNĐ</strong></p>
         <ul class="list-disc list-inside mt-2 space-y-1 text-muted-foreground">
@@ -418,7 +923,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Bảo Dưỡng Phụ Kiện</h2>
       <p>Để phụ kiện luôn trong tình trạng tốt nhất, bạn cần bảo quản đúng cách. Găng tay nên được giặt thường xuyên, bao cơ cần được để ở nơi khô ráo, và đầu cơ cần được kiểm tra định kỳ. Nếu cần dịch vụ thay thế đầu cơ hoặc bảo dưỡng, hãy liên hệ với chúng tôi tại <a href="/dich-vu" class="text-primary hover:underline cursor-pointer font-medium">dịch vụ bảo dưỡng</a>.</p>
 
-      <div class="bg-primary/10 p-6 rounded-lg my-8 border border-primary/20">
+      <div class=" p-6 rounded-lg my-8 border border-primary/20">
         <h2 class="text-2xl font-serif font-bold text-foreground mb-4">Tóm Tắt</h2>
         <ul class="space-y-2 text-muted-foreground">
           <li><strong>Găng tay:</strong> Giúp tay khô ráo, tăng độ trơn mượt</li>
@@ -450,7 +955,7 @@ export const blogPosts: BlogPost[] = [
     slug: "gay-bi-a-custom-tao-ra-tac-pham-nghe-thuat-doc-nhat-vo-nhi",
     excerpt: "Khám phá thế giới gậy bi a custom: từ quy trình chế tác thủ công đến các mẫu gậy độc bản. Tìm hiểu về dịch vụ gậy custom tại Đức Cường Billiards và cách tạo ra cây gậy theo đúng ý tưởng của riêng bạn.",
     content: `
-      <div class="bg-primary/10 p-6 rounded-lg mb-8 border border-primary/20">
+      <div class=" p-6 rounded-lg mb-8 border border-primary/20">
         <p class="text-2xl font-serif font-bold text-foreground mb-3">Gậy Custom - Nơi Nghệ Thuật Gặp Công Nghệ</p>
         <p class="text-muted-foreground">Trong thế giới gậy bi a, không có gì thể hiện cá tính và phong cách của người chơi tốt hơn một cây gậy custom. Không chỉ là một công cụ thể thao, gậy custom là một <strong>tác phẩm nghệ thuật</strong> được chế tác thủ công, phản ánh đúng gu thẩm mỹ và nhu cầu của người sở hữu.</p>
       </div>

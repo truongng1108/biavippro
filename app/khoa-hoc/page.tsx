@@ -133,43 +133,21 @@ export default function CoursesPage() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden bg-muted">
-                <Image
-                  src="/billiard-player-elegant-black-and-white.jpg"
-                  alt="HLV Nguyễn Văn A"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <h3 className="font-medium text-foreground">HLV Nguyễn Văn A</h3>
-              <p className="text-sm text-muted-foreground">Giảng viên Khóa Cơ Bản</p>
-              <p className="text-xs text-accent mt-1">10+ năm kinh nghiệm</p>
             </div>
             <div className="text-center">
               <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden bg-muted">
                 <Image
-                  src="/billiard-player-technique-training-practice.jpg"
-                  alt="HLV Trần Văn B"
+                  src="/huanluyenvien.jpg"
+                  alt="HLV Ngô Quyết Thắng"
                   fill
                   className="object-cover"
                 />
               </div>
-              <h3 className="font-medium text-foreground">HLV Trần Văn B</h3>
+              <h3 className="font-medium text-foreground">HLV TNgô Quyết Thắng</h3>
               <p className="text-sm text-muted-foreground">Giảng viên Khóa Nâng Cao</p>
               <p className="text-xs text-accent mt-1">15+ năm kinh nghiệm</p>
             </div>
             <div className="text-center">
-              <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden bg-muted">
-                <Image
-                  src="/professional-billiard-player-making-shot-on-pool-t.jpg"
-                  alt="HLV Lê Văn C"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <h3 className="font-medium text-foreground">HLV Lê Văn C</h3>
-              <p className="text-sm text-muted-foreground">Giảng viên Khóa Chuyên Nghiệp</p>
-              <p className="text-xs text-accent mt-1">VĐV Quốc gia</p>
             </div>
           </div>
         </div>
